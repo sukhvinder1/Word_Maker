@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_ad4dca05e8328b4bcd39c8ba493507da143b556f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_4b94a2239fa23c095bcb071f52d388ff5224f848\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_4b6aa428dd19822e6c51af95c30a214038dfebdd\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="96a446527713d922a64fb5447baa67b401066daa">
+        <dex dex="C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_f7023110233bf236197c91720a6f71ff36608cdd\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_afa1284b1de0f0fdff152001416eee6750349a8c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_fb3fecaeb9a46f75c5a3e9555317f7d4caa97e83\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f71dc046a7ff3027909ee66d352c2a4678a594e9">
+        <dex dex="C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_98d5e912a5550a2071615c2c4993b53019741829\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\sukhu\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_6eb36dbb356e2bfb414767beda321220421405ca\classes.dex" />
+    </item>
+
+</items>

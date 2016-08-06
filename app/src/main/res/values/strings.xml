@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Word Maker</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="FindButton">Find the words</string>
+    <string name="SearchWord">SearchWord</string>
+    <string name="btn2">btn2</string>
+    <string name="Notify">Notify</string>
+    <string name="recommend">recommend</string>
+	<string name="sendBtn">sendBtn</string>
+	<string name="onBtnClick">onBtnClick</string>
+	<string name="clearBtn">clearBtn</string>
+	<string name="helpBtn">helpBtn</string>
+	<string name="homeBtn">homeBtn</string>
+</resources>
