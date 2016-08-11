@@ -50,6 +50,7 @@ Temporary Items
 ##Studio
 *.iml*
 .gradle*
+.gradle/
 */local.properties*
 */.idea/workspace.xml
 */.idea/libraries*
