@@ -83,10 +83,10 @@ activity#com.example.wordmaker.recommendation_page
 ADDED from C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\src\main\AndroidManifest.xml:30:9-66
 	android:name
 		ADDED from C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\src\main\AndroidManifest.xml:30:19-54
-activity#com.example.wordmaker.wordSelected
-ADDED from C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\src\main\AndroidManifest.xml:31:9-59
+activity#com.example.wordmaker.WebSearch
+ADDED from C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\src\main\AndroidManifest.xml:31:9-56
 	android:name
-		ADDED from C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\src\main\AndroidManifest.xml:31:19-47
+		ADDED from C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\src\main\AndroidManifest.xml:31:19-44
 activity#com.example.wordmaker.savedWord_page
 ADDED from C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\src\main\AndroidManifest.xml:32:9-61
 	android:name

@@ -45,3 +45,19 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+
+##Studio
+*.iml*
+.gradle*
+*/local.properties*
+*/.idea/workspace.xml
+*/.idea/libraries*
+*.DS_Store*
+*/build*
+*/captures*
+*.class
+build\
+build/
+*.class
+*.apk

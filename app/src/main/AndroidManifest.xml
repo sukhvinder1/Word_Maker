@@ -28,7 +28,7 @@
         </activity>
         <activity android:name=".Page2"></activity>
         <activity android:name=".recommendation_page"></activity>
-        <activity android:name=".wordSelected"></activity>
+        <activity android:name=".WebSearch"></activity>
         <activity android:name=".savedWord_page"></activity>
         <activity android:name=".helpView_page"></activity>
         <activity android:name=".howAppWorks"></activity>

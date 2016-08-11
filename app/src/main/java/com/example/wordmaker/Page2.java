@@ -13,6 +13,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.speech.tts.TextToSpeech.OnInitListener;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
@@ -145,11 +146,12 @@ public class Page2 extends Activity implements OnInitListener{
 				saveBtn.setClickable(false);
 			}
 			break;
-		case R.id.Find:
-			Uri uri = Uri.parse("http://m.dictionary.com/d/?q="+selectedword);
-			 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-			 startActivity(intent);
-			break;
+			case R.id.Find:
+				Intent webSearch = new Intent(v.getContext(), WebSearch.class);
+				Log.d("word", "selected word At page 2 - " + selectedword);
+				webSearch.putExtra("word", selectedword);
+				startActivity(webSearch);
+				break;
 			
 		case R.id.button1:
 			Intent myIntent = new Intent(v.getContext(), Main_Page.class);

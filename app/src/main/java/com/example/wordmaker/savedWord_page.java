@@ -11,6 +11,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.speech.tts.TextToSpeech.OnInitListener;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -31,7 +32,7 @@ public class savedWord_page extends Activity implements OnInitListener{
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_viewSaveWords);
+		setContentView(R.layout.activity_savedwords);
 		
 		talker = new TextToSpeech(this, this);
 		talker.setSpeechRate((float) 0.6);
@@ -127,9 +128,10 @@ public class savedWord_page extends Activity implements OnInitListener{
 			}
 			break;
 		case R.id.Find:
-			Uri uri = Uri.parse("http://m.dictionary.com/d/?q="+selectedword);
-			 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-			 startActivity(intent);
+			Intent webSearch = new Intent(v.getContext(), WebSearch.class);
+			Log.d("word", "selected word At page 2- " + selectedword);
+			webSearch.putExtra("word", selectedword);
+			startActivity(webSearch);
 			break;
 		}
 	}
@@ -141,7 +143,6 @@ public class savedWord_page extends Activity implements OnInitListener{
 
 	@Override
 	public void onInit(int status) {
-		// TODO Auto-generated method stub
 		
 	}
 	public void onDestroy() {

@@ -23,7 +23,7 @@ public class recommendation_page extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_recommendationPage);
+		setContentView(R.layout.activity_recommendation);
 		messageET = (EditText) findViewById(R.id.editText1);
 		text = (TextView) findViewById(R.id.text1);
 		

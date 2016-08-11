@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/simple">
 
     <TextView
         android:id="@+id/text2"
@@ -57,7 +58,8 @@
         android:layout_below="@+id/text4"
         android:layout_centerHorizontal="true"
         android:onClick="@string/onBtnClick"
-        android:text="Click here to know how this app \n works !!" />
+        android:text="Click here to know how this app \n works !!"
+        android:background="#b1c7e0" />
 
     <TextView
         android:id="@+id/text5"

@@ -25,33 +25,35 @@
 
     <LinearLayout
         android:orientation="horizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
         <Button
-            android:id="@+id/Find"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:clickable="false"
-            android:onClick="@string/onBtnClick"
-            android:text="Find" />
-
-        <Button
+            android:layout_weight=".5"
+            android:layout_width="0dip"
             android:id="@+id/DeleteorSave"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:clickable="false"
             android:onClick="@string/onBtnClick"
-            android:text="Save Word" />
+            android:text="Save"/>
 
         <Button
-            android:id="@+id/speech"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_width="0dip"
             android:clickable="false"
             android:onClick="@string/onBtnClick"
-            android:text="Listen" />
+            android:text="Listen Me"
+            android:id="@+id/speech"/>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_width="0dip"
+            android:id="@+id/Find"
+            android:clickable="false"
+            android:onClick="@string/onBtnClick"
+            android:text="Find"/>
     </LinearLayout>
 
 </LinearLayout>
