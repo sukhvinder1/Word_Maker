@@ -1811,7 +1811,7 @@ containing a value of this type.
         public static final int activity_help=0x7f030019;
         public static final int activity_main=0x7f03001a;
         public static final int activity_websearch=0x7f03001b;
-        public static final int help_view=0x7f03001c;
+        public static final int activity_helpView =0x7f03001c;
         public static final int notification_media_action=0x7f03001d;
         public static final int notification_media_cancel_action=0x7f03001e;
         public static final int notification_template_big_media=0x7f03001f;
@@ -1820,13 +1820,13 @@ containing a value of this type.
         public static final int notification_template_media=0x7f030022;
         public static final int notification_template_part_chronometer=0x7f030023;
         public static final int notification_template_part_time=0x7f030024;
-        public static final int page2=0x7f030025;
-        public static final int recommendation_page=0x7f030026;
+        public static final int activity_page2 =0x7f030025;
+        public static final int activity_recommendationPage =0x7f030026;
         public static final int select_dialog_item_material=0x7f030027;
         public static final int select_dialog_multichoice_material=0x7f030028;
         public static final int select_dialog_singlechoice_material=0x7f030029;
         public static final int support_simple_spinner_dropdown_item=0x7f03002a;
-        public static final int view_save_words=0x7f03002b;
+        public static final int activity_viewSaveWords =0x7f03002b;
     }
     public static final class menu {
         public static final int main__page=0x7f0c0000;

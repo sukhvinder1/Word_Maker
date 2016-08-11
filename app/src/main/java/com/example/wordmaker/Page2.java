@@ -33,7 +33,7 @@ public class Page2 extends Activity implements OnInitListener{
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.page2);
+		setContentView(R.layout.activity_page2);
 		
 		talker = new TextToSpeech(this, this);
 		text = (TextView) findViewById(R.id.text1);
