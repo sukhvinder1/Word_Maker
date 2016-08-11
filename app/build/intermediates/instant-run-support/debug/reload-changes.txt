@@ -1,0 +1,8 @@
+CHANGED,C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\wordmaker\Main_Page$5$override.class
+CHANGED,C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\wordmaker\Main_Page$override.class
+CHANGED,C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\wordmaker\Main_Page$1$override.class
+CHANGED,C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\wordmaker\Main_Page$2$override.class
+CHANGED,C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\wordmaker\R$layout$override.class
+CHANGED,C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\wordmaker\Main_Page$3$override.class
+CHANGED,C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\wordmaker\Main_Page$4$override.class

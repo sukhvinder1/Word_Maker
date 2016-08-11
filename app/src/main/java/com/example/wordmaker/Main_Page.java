@@ -7,7 +7,6 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
-import java.util.regex.Pattern;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -26,7 +25,6 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 //import android.widget.Toast;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
@@ -45,7 +43,7 @@ public class Main_Page extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main__page);
+		setContentView(R.layout.activity_main);
 		
 		seek = (SeekBar) findViewById(R.id.seekBar);
 		inputText = (EditText) findViewById(R.id.inputText);

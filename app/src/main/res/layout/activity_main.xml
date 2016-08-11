@@ -12,7 +12,7 @@
 
     <TextView
         android:id="@+id/seekLabel"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignRight="@+id/wordsLable"
         android:layout_below="@+id/inputText"
@@ -24,7 +24,7 @@
 
     <EditText
         android:id="@+id/inputText"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/wordsLable"
         android:layout_alignRight="@+id/seekbarLabel"
@@ -39,14 +39,15 @@
 
     <Button
         android:id="@+id/Find"
-        android:layout_width="150dp"
-        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/seekBar"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="35dp"
         android:onClick="@string/SearchWord"
         android:text="@string/FindButton"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        android:background="#fcbebe" />
 
     <TextView
         android:id="@+id/seekbarLabel"
@@ -62,7 +63,7 @@
 
     <TextView
         android:id="@+id/wordsLable"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
@@ -73,55 +74,64 @@
 
     <SeekBar
         android:id="@+id/seekBar"
-        android:layout_width="290dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/seekLabel"
         android:layout_toLeftOf="@+id/seekbarLabel"
         android:max="@integer/max" />
 
-    <ImageButton
-        android:id="@+id/imageButton1"
-        android:layout_width="wrap_content"
-        android:layout_height="48dp"
-        android:layout_alignBottom="@+id/viewSavedWordsBtn"
-        android:layout_alignLeft="@+id/seekBar"
-        android:layout_toLeftOf="@+id/Find"
-        android:onClick="@string/recommend"
-        android:src="@drawable/people" />
-
-    <Button
-        android:id="@+id/viewSavedWordsBtn"
-        android:layout_width="75dp"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/button1"
-        android:layout_alignBottom="@+id/button1"
-        android:layout_alignRight="@+id/Find"
-        android:onClick="@string/onBtnClick"
-        android:text="Saved" />
-
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/seekLabel"
-        android:onClick="@string/clearBtn"
-        android:text="Clear" />
-
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" >
-    </LinearLayout>
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/Find"
+        android:gravity="bottom">
 
-    <Button
-        android:id="@+id/speech"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/viewSavedWordsBtn"
-        android:layout_alignBottom="@+id/viewSavedWordsBtn"
-        android:layout_marginRight="5dp"
-        android:layout_toLeftOf="@+id/viewSavedWordsBtn"
-        android:onClick="@string/helpBtn"
-        android:text="Help" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:layout_width="0dip"
+                android:text="Recommend"
+                android:onClick="@string/recommend"
+                android:id="@+id/button" />
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:onClick="@string/onBtnClick"
+                android:layout_width="0dip"
+                android:text="Saved Words"
+                android:id="@+id/button2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:layout_width="0dip"
+                android:text="Help"
+                android:onClick="@string/helpBtn"
+                android:id="@+id/button3" />
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:layout_width="0dip"
+                android:text="Clear"
+                android:onClick="@string/clearBtn"
+                android:id="@+id/button5" />
+        </LinearLayout>
+
+    </LinearLayout>
 
 </RelativeLayout>
