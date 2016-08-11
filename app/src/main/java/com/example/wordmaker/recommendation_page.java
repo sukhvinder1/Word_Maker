@@ -66,7 +66,7 @@ public class recommendation_page extends Activity {
 
 	
 	private void alertBox(String message) {
-		// TODO Auto-generated method stub
+
 		new AlertDialog.Builder(this).setIcon(R.drawable.alert)
 	      .setTitle(message)
 	      .setCancelable(true).setNeutralButton(android.R.string.ok,

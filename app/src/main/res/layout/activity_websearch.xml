@@ -9,7 +9,8 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Small Text"
         android:id="@+id/webSearchText"
-        android:textSize="18dp" />
+        android:textSize="18dp"
+        android:gravity="center" />
 
     <WebView
         android:layout_width="match_parent"

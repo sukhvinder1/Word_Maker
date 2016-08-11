@@ -39,7 +39,7 @@ public class WebSearch extends Activity {
         Log.d("findMe*", "incoming key " + key);
 
         if(key != null && !key.isEmpty()){
-            webSerachText.setText(key);
+            webSerachText.setText("Meaning of "+key);
             openURL(key);
         }else{
             Log.d("findMe*", "No incoming key");

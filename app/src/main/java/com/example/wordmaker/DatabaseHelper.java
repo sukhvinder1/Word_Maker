@@ -29,7 +29,6 @@ public class DatabaseHelper {
 		
 		@Override
 		public void onCreate(SQLiteDatabase db) {
-			// TODO Auto-generated method stub
 			db.execSQL("CREATE TABLE " + DATABASE_TABLE + " (" +
 					KEY_ROWID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
 					KEY_NAME + " TEXT NOT NULL);"
@@ -39,7 +38,6 @@ public class DatabaseHelper {
 		
 		@Override
 		public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-			// TODO Auto-generated method stub
 			db.execSQL("DROP TABLE IF EXISTS " + DATABASE_TABLE); 
 			onCreate(db);
 		}
@@ -60,7 +58,7 @@ public class DatabaseHelper {
 	}
 
 	public long createEntry(String name) { 
-		// TODO Auto-generated method stub
+
 		ContentValues cv = new ContentValues();
 		cv.put(KEY_NAME, name);
 		return ourDatabase.insert(DATABASE_TABLE, null, cv);
@@ -68,14 +66,14 @@ public class DatabaseHelper {
 	}
 
 	public Cursor getData() {
-		// TODO Auto-generated method stub
+
 		String[] columns = new String[]{KEY_ROWID, KEY_NAME};
 		Cursor c = ourDatabase.query(DATABASE_TABLE, columns, null, null, null, null, null);
 		return c;
 	}
 
 	public void deleteWord(long lRow) throws SQLException {
-		// TODO Auto-generated method stub
+
 		ourDatabase.delete(DATABASE_TABLE, KEY_ROWID + "=" + lRow, null); 
 	}
 

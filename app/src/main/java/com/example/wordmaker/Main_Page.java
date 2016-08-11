@@ -31,33 +31,29 @@ import android.widget.SeekBar.OnSeekBarChangeListener;
 
 public class Main_Page extends Activity {
 
-	SeekBar seek;
-	TextView seekLabel ;
+	SeekBar seekBar;
+	TextView seekBarText;
 	EditText inputText;
 	String line = null, dictinaryLines ="", dictStringLettes = "" ;
 	String inputWord ="", output ="Sukh";
 	String[] dictLinesArray = {};
-	
-	
-	
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
-		seek = (SeekBar) findViewById(R.id.seekBar);
+		seekBar = (SeekBar) findViewById(R.id.seekBar);
 		inputText = (EditText) findViewById(R.id.inputText);
-		seekLabel = (TextView) findViewById(R.id.seekbarLabel);
+		seekBarText = (TextView) findViewById(R.id.seekbarLabel);
 		TextView wordLabelText = (TextView) findViewById(R.id.wordsLable);
 		TextView seekLabel2 = (TextView) findViewById(R.id.seekLabel);
 		
 		inputText.addTextChangedListener(new TextWatcher(){
-
 			@Override
 			public void afterTextChanged(Editable s) {
-				// TODO Auto-generated method stub
-				for(int i = s.length(); i > 0; i--){
 
+				for(int i = s.length(); i > 0; i--){
 	                if(s.subSequence(i-1, i).toString().equals("\n"))
 	                     s.replace(i-1, i, "");
 
@@ -68,13 +64,13 @@ public class Main_Page extends Activity {
 			@Override
 			public void beforeTextChanged(CharSequence arg0, int arg1,
 					int arg2, int arg3) {
-				// TODO Auto-generated method stub
+
 			}
 
 			@Override
 			public void onTextChanged(CharSequence arg0, int arg1, int arg2,
 					int arg3) {
-				// TODO Auto-generated method stub
+
 				
 			}
 			
@@ -88,25 +84,25 @@ public class Main_Page extends Activity {
         
         wordLabelText.setTypeface(tf);
         seekLabel2.setTypeface(tf);
-        seekLabel.setTypeface(tf2);
+        seekBarText.setTypeface(tf2);
 		
-		seek.setOnSeekBarChangeListener( new OnSeekBarChangeListener()
+		seekBar.setOnSeekBarChangeListener(new OnSeekBarChangeListener()
 		{
 			public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser)
 			{
-				// TODO Auto-generated method stub
+
 				int finalprogress = (progress/100)+1;
-				seekLabel.setText(""+finalprogress);
+				seekBarText.setText(""+finalprogress);
 			}
 
 			public void onStartTrackingTouch(SeekBar seekBar)
 			{
-				// TODO Auto-generated method stub
+
 			}
 
 			public void onStopTrackingTouch(SeekBar seekBar)
 			{
-				// TODO Auto-generated method stub
+
 			}
 		});
 		
@@ -114,7 +110,7 @@ public class Main_Page extends Activity {
 	}
 
 	private void loadingDictionary() {
-		// TODO Auto-generated method stub
+
 		AssetManager mgr;
 		
 		try{
@@ -143,7 +139,7 @@ public class Main_Page extends Activity {
 	public void SearchWord(View v) throws IOException {
 		
 		inputWord = inputText.getText().toString();
-		int length = Integer.parseInt(seekLabel.getText().toString());
+		int length = Integer.parseInt(seekBarText.getText().toString());
 		
 		if(inputWord.length() ==0){
 
@@ -189,7 +185,7 @@ public class Main_Page extends Activity {
     }
 	
 	private void for1Letter() {
-		// TODO Auto-generated method stub
+
 		new AlertDialog.Builder(this)
 	      .setMessage("Sorry, Please select length more then 1 !").setIcon(R.drawable.alert)
 	      .setTitle("Error")
@@ -200,7 +196,7 @@ public class Main_Page extends Activity {
 	}
 
 	private void for2to3LettesOutput(String finalWord, int length, View v) throws IOException {
-		// TODO Auto-generated method stub
+
 		
 		
 		StringBuilder letterStringBuilder2 = new StringBuilder();
@@ -288,9 +284,9 @@ public class Main_Page extends Activity {
 	
 	public void clearBtn(View v) {
 		
-		seekLabel.setText("1") ;
+		seekBarText.setText("1") ;
 		inputText.setText("");
-		seek.setProgress(0);
+		seekBar.setProgress(0);
 	}
 	
 	public void helpBtn(View v) {

@@ -101,7 +101,7 @@ public class Page2 extends Activity implements OnInitListener{
 	}
 
 	private void sortStringBubble(String[] x) {
-		// TODO Auto-generated method stub
+
 		int j;
         boolean flag = true;  // will determine when the sort is finished
         String temp;
@@ -163,7 +163,7 @@ public class Page2 extends Activity implements OnInitListener{
 
 	@Override
 	public void onInit(int status) {
-		// TODO Auto-generated method stub
+
 		//say("Hello World");
 
 	}

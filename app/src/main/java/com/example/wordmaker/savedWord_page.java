@@ -118,7 +118,6 @@ public class savedWord_page extends Activity implements OnInitListener{
 				entry.close();
 			}
 			catch(Exception e){
-				//****delete this *****
 				String error = e.toString();
 				Toast.makeText(savedWord_page.this, error, Toast.LENGTH_LONG).show();
 			}

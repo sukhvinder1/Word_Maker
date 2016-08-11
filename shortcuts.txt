@@ -1,0 +1,2 @@
+SHIFT=F6 = refacort variable name
+double SHIFT = search everywhere
