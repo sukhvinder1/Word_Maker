@@ -54,7 +54,7 @@
             android:id="@+id/Find"
             android:clickable="false"
             android:onClick="@string/onBtnClick"
-            android:text="Find Meaning"/>
+            android:text="Meaning"/>
     </LinearLayout>
 
 </LinearLayout>

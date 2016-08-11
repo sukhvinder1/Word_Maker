@@ -26,7 +26,7 @@
         jar="C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="32acc9790a537330d9f73179369ae24a2fd3da1e">
+        sha1="91057551a054c564e20d275d6af0fa2ddb5eb302">
         <dex dex="C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_f7023110233bf236197c91720a6f71ff36608cdd\classes.dex" />
     </item>
     <item
@@ -47,7 +47,7 @@
         jar="C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="374e37d783f5e4a6d5388bc00c382fb4e390ec34">
+        sha1="91374858cbfeb72c646259ca54eaae525675a6af">
         <dex dex="C:\Users\sukhu\AndroidStudioProjects\Word_Maker\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_98d5e912a5550a2071615c2c4993b53019741829\classes.dex" />
     </item>
     <item

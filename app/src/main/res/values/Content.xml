@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="listenWords">You can also listen words which help in pronunciation of the words</string>
+    <string name="MainContent">This app helps you to generate words from the random letters..</string>
+    <string name="ExtraFeatures">Also gives you some extra features like saving the specific word.</string>
+    <string name="meaning">Also help to finding the meaning of the word.</string>
+    <string name="howAppWroksButton">Click here to know how this app \n works !!</string>
+    <string name="Ownership">This app is own by Sukhvinder Singh</string>
+    <string name="dateContent">Date of Completion : 7th April, 2013</string>
+</resources>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/simple"
-    android:orientation="vertical">
+    android:orientation="vertical" >
 
     <TextView
         android:id="@+id/text1"
@@ -18,50 +18,43 @@
     <ListView
         android:id="@+id/mySavedlist"
         android:layout_width="match_parent"
-        android:layout_height="400dp"
-        android:layout_below="@+id/text1"
-        android:background="@drawable/texture">
+        android:layout_height="362dp"
+        android:layout_weight="0.07"
+        android:background="@drawable/texture" >
+
     </ListView>
 
     <LinearLayout
-        android:orientation="vertical"
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/mySavedlist"
-        android:gravity="bottom">
+        android:layout_height="wrap_content">
 
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_width="0dip"
+            android:id="@+id/DeleteorSave"
+            android:clickable="false"
+            android:onClick="@string/onBtnClick"
+            android:text="Delete"/>
 
-            <Button
-                android:layout_height="wrap_content"
-                android:layout_weight=".5"
-                android:layout_width="0dip"
-                android:id="@+id/DeleteorSave"
-                android:clickable="false"
-                android:onClick="@string/onBtnClick"
-                android:text="Delete"/>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_width="0dip"
+            android:clickable="false"
+            android:onClick="@string/onBtnClick"
+            android:text="Listen Me"
+            android:id="@+id/speech"/>
 
-            <Button
-                android:layout_height="wrap_content"
-                android:layout_weight=".5"
-                android:layout_width="0dip"
-                android:clickable="false"
-                android:onClick="@string/onBtnClick"
-                android:text="Listen Me"
-                android:id="@+id/speech"/>
-
-            <Button
-                android:layout_height="wrap_content"
-                android:layout_weight=".5"
-                android:layout_width="0dip"
-                android:id="@+id/Find"
-                android:clickable="false"
-                android:onClick="@string/onBtnClick"
-                android:text="Find"/>
-        </LinearLayout>
-
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_width="0dip"
+            android:id="@+id/Find"
+            android:clickable="false"
+            android:onClick="@string/onBtnClick"
+            android:text="Meaning"/>
     </LinearLayout>
-</RelativeLayout>
+
+</LinearLayout>

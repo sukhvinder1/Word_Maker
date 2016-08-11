@@ -98,7 +98,7 @@
                 android:layout_width="0dip"
                 android:text="Recommend"
                 android:onClick="@string/recommend"
-                android:id="@+id/button" />
+                android:id="@+id/button"/>
 
             <Button
                 android:layout_height="wrap_content"
@@ -128,7 +128,7 @@
                 android:layout_weight=".5"
                 android:layout_width="0dip"
                 android:text="Clear"
-                android:onClick="@string/clearBtn"
+                android:onClick="@string/helpBtn"
                 android:id="@+id/button5" />
         </LinearLayout>
 

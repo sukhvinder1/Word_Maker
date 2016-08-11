@@ -1831,9 +1831,12 @@ containing a value of this type.
         public static final int main__page=0x7f0c0000;
     }
     public static final class string {
-        public static final int FindButton=0x7f050014;
-        public static final int Notify=0x7f050015;
-        public static final int SearchWord=0x7f050016;
+        public static final int ExtraFeatures=0x7f050014;
+        public static final int FindButton=0x7f050015;
+        public static final int MainContent=0x7f050016;
+        public static final int Notify=0x7f050017;
+        public static final int Ownership=0x7f050018;
+        public static final int SearchWord=0x7f050019;
         public static final int abc_action_bar_home_description=0x7f050000;
         public static final int abc_action_bar_home_description_format=0x7f050001;
         public static final int abc_action_bar_home_subtitle_description_format=0x7f050002;
@@ -1853,16 +1856,20 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with=0x7f050010;
         public static final int abc_shareactionprovider_share_with_application=0x7f050011;
         public static final int abc_toolbar_collapse_description=0x7f050012;
-        public static final int action_settings=0x7f050017;
-        public static final int app_name=0x7f050018;
-        public static final int btn2=0x7f050019;
-        public static final int clearBtn=0x7f05001a;
-        public static final int hello_world=0x7f05001b;
-        public static final int helpBtn=0x7f05001c;
-        public static final int homeBtn=0x7f05001d;
-        public static final int onBtnClick=0x7f05001e;
-        public static final int recommend=0x7f05001f;
-        public static final int sendBtn=0x7f050020;
+        public static final int action_settings=0x7f05001a;
+        public static final int app_name=0x7f05001b;
+        public static final int btn2=0x7f05001c;
+        public static final int clearBtn=0x7f05001d;
+        public static final int dateContent=0x7f05001e;
+        public static final int hello_world=0x7f05001f;
+        public static final int helpBtn=0x7f050020;
+        public static final int homeBtn=0x7f050021;
+        public static final int howAppWroksButton=0x7f050022;
+        public static final int listenWords=0x7f050023;
+        public static final int meaning=0x7f050024;
+        public static final int onBtnClick=0x7f050025;
+        public static final int recommend=0x7f050026;
+        public static final int sendBtn=0x7f050027;
         public static final int status_bar_notification_info_overflow=0x7f050013;
     }
     public static final class style {

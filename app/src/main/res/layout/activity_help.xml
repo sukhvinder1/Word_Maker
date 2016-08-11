@@ -11,7 +11,7 @@
         android:layout_alignLeft="@+id/text1"
         android:layout_below="@+id/text1"
         android:layout_marginTop="23dp"
-        android:text="Also gives you some extra features like saving the specific word. "
+        android:text="@string/ExtraFeatures"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="@color/orange"
         android:textSize="@dimen/textSize" />
@@ -23,7 +23,7 @@
         android:layout_alignLeft="@+id/text2"
         android:layout_below="@+id/text2"
         android:layout_marginTop="38dp"
-        android:text="You can also listen words which help in pronunciation of the words"
+        android:text="@string/listenWords"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="@color/orange"
         android:textSize="@dimen/textSize" />
@@ -35,7 +35,7 @@
         android:layout_alignLeft="@+id/text3"
         android:layout_below="@+id/text3"
         android:layout_marginTop="29dp"
-        android:text="Also help to finding the meaning of the word."
+        android:text="@string/meaning"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="@color/orange"
         android:textSize="@dimen/textSize" />
@@ -46,7 +46,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:text="This app helps you to generate words from the random letters.."
+        android:text="@string/MainContent"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="@color/orange"
         android:textSize="@dimen/textSize" />
@@ -58,7 +58,7 @@
         android:layout_below="@+id/text4"
         android:layout_centerHorizontal="true"
         android:onClick="@string/onBtnClick"
-        android:text="Click here to know how this app \n works !!"
+        android:text="@string/howAppWroksButton"
         android:background="#b1c7e0" />
 
     <TextView
@@ -68,7 +68,7 @@
         android:layout_alignLeft="@+id/text6"
         android:layout_below="@+id/text6"
         android:layout_marginTop="19dp"
-        android:text="This app is own by Sukhvinder Singh"
+        android:text="@string/Ownership"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="@color/orange"
         android:textSize="@dimen/textSize" />
@@ -80,7 +80,7 @@
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/button1"
         android:layout_marginTop="18dp"
-        android:text="Date of Completion : 7th April, 2013"
+        android:text="@string/dateContent"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="@color/orange"
         android:textSize="@dimen/textSize" />

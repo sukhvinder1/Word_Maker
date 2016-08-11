@@ -30,25 +30,25 @@ public class WebSearch extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_websearch);
         webSerachText = (TextView) findViewById(R.id.webSearchText);
-        webview=(WebView)findViewById(R.id.webView);
+        webview = (WebView) findViewById(R.id.webView);
         webview.setWebViewClient(new MyWebViewClient());
 
         Intent intent = getIntent();
-        Log.d("findMe*", "getting all extra"+intent.getExtras().toString());
+        Log.d("findMe*", "getting all extra" + intent.getExtras().toString());
         String key = intent.getStringExtra("word");
         Log.d("findMe*", "incoming key " + key);
 
-        if(key != null && !key.isEmpty()){
-            webSerachText.setText("Meaning of "+key);
+        if (key != null && !key.isEmpty()) {
+            webSerachText.setText("Meaning of " + key);
             openURL(key);
-        }else{
+        } else {
             Log.d("findMe*", "No incoming key");
             webSerachText.setText("Something is not okay !");
         }
     }
 
     private void openURL(String key) {
-        webview.loadUrl("http://m.dictionary.com/d/?q="+key);
+        webview.loadUrl("http://m.dictionary.com/d/?q=" + key);
         webview.requestFocus();
     }
 }
